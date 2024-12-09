@@ -88,7 +88,9 @@
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = 
-					<&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N9>;
+					<&macro_press   &kp LALT>,
+					<&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N9>,
+					<&macro_release   &kp LALT>;
     };
 	};
 };
