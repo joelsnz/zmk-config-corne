@@ -106,7 +106,7 @@
         bindings = <
   &kp TAB &kp Q &kp W &kp E &kp R &kp T  &kp Y &kp U &kp I &kp O &kp P &kp BSPC
   &kp LCTRL &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTL F &kp G   &kp H &mt RGUI J &mt RSHFT K &mt LALT L &mt RGUI SEMI &kp SQT
-  &kp LSHFT &kp Z &kp X &kp C &kp V &kp B  &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+  &kp LSHFT &kp Z &kp X &kp C &kp V &kp B  &my_zero_param_macro &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
   &kp LGUI &mo 1 &kp RET  &kp SPACE &mo 2 &kp RALT
         >;
       };
