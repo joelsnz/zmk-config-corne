@@ -19,6 +19,12 @@
             ╰────────────╯ ╰────────────╯
 */
 
+ZMK_MACRO(my_zero_param_macro,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp Z &kp M &kp K>;
+)
+
 / {
   behaviors {
     hrml: home_row_mods_left {
@@ -78,12 +84,6 @@
         <&kp>; // tap behavior
       };
     };
-
-		ZMK_MACRO(my_zero_param_macro,
-        wait-ms = <30>;
-        tap-ms = <40>;
-        bindings = <&kp Z &kp M &kp K>;
-    )
   };
 
 /{
