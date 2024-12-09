@@ -78,6 +78,12 @@
         <&kp>; // tap behavior
       };
     };
+
+		ZMK_MACRO(my_zero_param_macro,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp Z &kp M &kp K>;
+    )
   };
 
 /{
@@ -107,7 +113,7 @@
             ╰─────────────╯ ╰─────────────╯ */
         bindings = <
   &kp TAB &kp N1 &kp N2 &kp N3 &kp N4 &kp N5  &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp BSPC
-  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &u00F1 A &trans
+  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &my_zero_param_macro A &trans
   &kp LSHFT  &tog UC_WIN &tog UC_MAC &tog UC_LNX &trans &trans &trans &trans &trans &trans &trans &trans
   &kp LGUI &trans &kp RET &kp SPACE &trans &kp RALT
         >;
