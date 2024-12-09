@@ -91,7 +91,7 @@
 					<&macro_press &kp LCTRL>,
 					<&kp TILDE>,
 					<&macro_release &kp LCTRL>,
-					<&kp TILDE>;
+					<&kp N>;
     };
 	};
 };
