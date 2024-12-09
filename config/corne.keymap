@@ -89,9 +89,9 @@
         tap-ms = <40>;
         bindings = 
 					<&macro_press &kp LCTRL>,
-					<&kp TILDE>,
+					<&macro_tap &kp TILDE>,
 					<&macro_release &kp LCTRL>,
-					<&kp N>;
+					<&macro_tap &kp N>;
     };
 	};
 };
