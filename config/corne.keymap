@@ -90,7 +90,8 @@
         bindings = 
 					<&macro_press &kp LCTRL>,
 					<&kp TILDE>,
-					<&macro_release &kp LCTRL>;
+					<&macro_release &kp LCTRL>,
+					<&kp TILDE>;
     };
 	};
 };
