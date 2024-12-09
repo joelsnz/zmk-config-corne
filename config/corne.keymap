@@ -88,10 +88,7 @@
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = 
-					<&macro_press &kp LCTRL>,
-					<&macro_tap &kp TILDE>,
-					<&macro_release &kp LCTRL>,
-					<&macro_tap &kp N>;
+					<&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N9>;
     };
 	};
 };
