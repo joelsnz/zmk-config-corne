@@ -80,6 +80,7 @@
     };
   };
 
+/{
   keymap {
     compatible = "zmk,keymap";
 
