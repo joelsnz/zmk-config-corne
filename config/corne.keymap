@@ -89,8 +89,9 @@
         tap-ms = <40>;
         bindings = 
 					<&macro_press   &kp LALT>,
-					<&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N9>,
-					<&macro_release   &kp LALT>;
+					<&macro_tap &kp TILDE>,
+					<&macro_release   &kp LALT>,
+					<&macro_tap &kp N>;
     };
 	};
 };
